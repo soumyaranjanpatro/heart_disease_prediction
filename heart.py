@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open("trained_model.sav",'rb'))
+loaded_model=pickle.load(open("https://github.com/soumyaranjanpatro/heart_disease_prediction/blob/main/trained_model.sav",'rb'))
 
 def heart_disease(input_data):
     #changing the input data to numpy array
